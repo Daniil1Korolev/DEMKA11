@@ -1,0 +1,16 @@
+﻿<Window x:Class="UchetRemont.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UchetRemont"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="АВТОРИЗАЦИЯ" HorizontalAlignment="Left" Height="65" Margin="247,10,0,0" VerticalAlignment="Top" Width="440" FontSize="40"/>
+        <TextBox Name="tblogin" HorizontalAlignment="Left" Margin="247,104,0,0" TextWrapping="Wrap" Text="Login" VerticalAlignment="Top" Width="257" Height="54"/>
+        <Button Name="ButtonVhod" Content="Вход" HorizontalAlignment="Left" Margin="318,268,0,0" VerticalAlignment="Top" Height="50" Width="116" Click="ButtonVhod_Click"/>
+        <TextBox x:Name="tbPass" HorizontalAlignment="Left" Margin="247,0,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Center" Width="257" Height="54"/>
+
+    </Grid>
+</Window>
